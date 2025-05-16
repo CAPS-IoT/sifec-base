@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name="SIF-EC SDK",
-      version="0.0.1",
+      version="0.0.2",
       packages=find_packages(),
       install_requires=["apscheduler==3.11.0",
                         "fastapi[standard]==0.115.0",
