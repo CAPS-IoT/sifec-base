@@ -5,7 +5,7 @@ from datetime import timedelta, datetime
 from apscheduler.triggers.cron import CronTrigger
 from apscheduler.schedulers.background import BackgroundScheduler
 
-from sif_base import BaseEventFabric
+from sifec_base import BaseEventFabric
 
 
 class Trigger(ABC):
